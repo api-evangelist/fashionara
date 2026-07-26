@@ -1,23 +1,78 @@
 aid: fashionara
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fashionara.png
 name: Fashionara
-description: Fashionara is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Fashionara was an Indian premium online fashion retailer that launched in 2012 as a
+  curated "e-fashion mall" selling ladies, men's and kids apparel, footwear and lifestyle goods.
+  It ran a flash-sale "events" model on a Magento storefront, carried more than 200 international
+  labels alongside Indian brands including Kenneth Cole, Calvin Klein, Fossil, Adidas, Benetton,
+  Van Heusen, Allen Solly, Clarks and Arrow, and operated a quirky in-house sub-brand called
+  F.lea Bazaar. It offered free shipping over Rs. 799, free returns, next-day delivery in eight
+  Indian cities, a style-advisor booking service and an Android app (com.fnara.main). The company
+  was backed by Lightspeed Venture Partners. Fashionara never published a public API, developer
+  portal, SDK or OpenAPI definition — a scan of more than 8,000 archived fashionara.com URLs found
+  no /api, /developer, /docs, /swagger, /oauth or /graphql paths, and no api/developer subdomain
+  was ever archived. The storefront went dark in mid-2016 and the domain no longer resolves. This
+  profile is retained as a historical record; there is no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/fashionara/refs/heads/main/apis.yml
 x-type: company
+x-status: defunct
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-launch-date: '2012'
+x-shutdown-date: '2016-05'
+x-shutdown-evidence: Last successful Wayback capture of fashionara.com returned HTTP 200 on
+  2016-05-06; a capture on 2016-05-28 returned HTTP 503 and every crawl attempt from 2016-06-02
+  onward failed. Captures in 2021 show only a bare Apache "Index of /" listing containing cgi-bin,
+  i.e. an abandoned server with no application deployed.
+x-domain-status: registered-not-resolving
+x-domain-note: fashionara.com is still registered (GoDaddy, created 2011-07-18, expiry 2028-07-18,
+  last updated 2023-06-24) and is delegated to AWS Route 53 nameservers, but those nameservers
+  return REFUSED for the zone — the hosted zone was deleted while the registrar delegation was
+  left in place. The domain therefore has no A, MX or TXT records and does not resolve at all, so
+  no Website pointer is wired. The subdomains help./blog./m./static.fashionara.com likewise no
+  longer resolve.
+x-social-note: The company's former social handles cannot be attributed to Fashionara today and
+  are deliberately not wired as pointers. facebook.com/ShopFashionara serves an error page;
+  pinterest.com/fashionara has been renamed to an unrelated profile ("FDot");
+  linkedin.com/company/fashionara is a 13-follower page whose description does not match the
+  original premium-curated positioning; instagram.com/fashionaraindia is behind a login wall and
+  unverifiable. The Android app com.fnara.main returns HTTP 404 on Google Play (delisted).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- E-Commerce
+- Fashion
+- Retail
+- Apparel
+- Marketplace
+- India
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
