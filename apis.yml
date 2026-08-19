@@ -51,7 +51,7 @@ x-social-note: The company's former social handles cannot be attributed to Fashi
   linkedin.com/company/fashionara is a 13-follower page whose description does not match the
   original premium-curated positioning; instagram.com/fashionaraindia is behind a login wall and
   unverifiable. The Android app com.fnara.main returns HTTP 404 on Google Play (delisted).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
