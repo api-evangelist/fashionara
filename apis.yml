@@ -36,6 +36,9 @@ description: Fashionara was an Indian premium online fashion retailer that launc
   was ever archived. The storefront went dark in mid-2016 and the domain no longer resolves. This
   profile is retained as a historical record; there is no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/fashionara/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
+x-api-posture-note: "Fashionara never published a public API, developer portal, SDK or OpenAPI definition — a scan of more than 8,000 archived fashionara.com URLs found no /api, /developer, /docs, /swagger, /oauth or /gra"
 x-type: company
 x-status: defunct
 x-source: vc-portfolio
